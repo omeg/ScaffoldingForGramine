@@ -1,0 +1,8 @@
+{% extends 'gramine.scaffolding.toml' %}
+
+{% block framework %}
+jar = "{{ jar }}"
+main_class = "{{ main_class }}"
+{% endblock %}
+
+{#- vim: set ft=jinja : #}
